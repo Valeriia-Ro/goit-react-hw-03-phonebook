@@ -1,0 +1,27 @@
+.form_section {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  width: 300px;
+}
+.form_label {
+  display: block;
+  font-size: 15px;
+  flex-direction: column;
+}
+
+.form_input {
+  display: block;
+  margin-bottom: 15px;
+  width: 150px;
+  padding: 0;
+}
+
+.form_button {
+  margin-bottom: 10px;
+  height: 20px;
+  width: 154px;
+  padding: 0;
+  border: 1px solid olive;
+  border-radius: 5px;
+  background-color: teal;
+}

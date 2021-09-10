@@ -1,0 +1,21 @@
+.list_section {
+  width: 300px;
+  padding-left: 0;
+}
+
+.list_element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_element:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list_button {
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  background-color: red;
+}
